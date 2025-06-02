@@ -25,7 +25,7 @@ A Laravel-based api to ingest property rooms availabilities and verify data exis
 
 1. Clone the repository
 ```bash
-git clone https://github.com/ivo.ferreira/hijiffy-challenge.git
+git clone https://github.com/imbf98/hijiffy-challenge.git
 cd hijiffy-challenge
 ```
 
