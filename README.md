@@ -19,7 +19,7 @@ A Laravel-based api to ingest property rooms availabilities and verify data exis
 - Composer
 - Node.js and NPM
 - MySQL database
-- Redis server (optional, for caching)
+- Redis server (for caching)
 
 ## Installation
 
