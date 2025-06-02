@@ -14,7 +14,9 @@ class AvailabilityController extends Controller
     }
     
     /**
-     * Display a listing of the resource.
+     * Room availability check for a property
+     * @param CheckAvailabilityRequest $request
+     * @return \Illuminate\Http\JsonResponse
      */
     public function check(CheckAvailabilityRequest $request): \Illuminate\Http\JsonResponse
     {
@@ -45,7 +47,9 @@ class AvailabilityController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Room availability ingestion
+     * @param SyncAvailabilityRequest $request
+     * @return \Illuminate\Http\JsonResponse
      */
     public function sync(SyncAvailabilityRequest $request): \Illuminate\Http\JsonResponse
     {
