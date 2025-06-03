@@ -1,4 +1,4 @@
-# HiJiffy Calendar Booking Challenge
+# Hijiffy Challenge - Booking Availability API
 
 ## Overview
 A Laravel-based api to ingest property rooms availabilities and verify data existence for an availability.
